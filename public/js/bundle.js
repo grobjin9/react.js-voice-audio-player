@@ -548,7 +548,7 @@ CurrentTimeBar.propTypes = {
 
 module.exports = CurrentTimeBar;
 
-},{"../utils/format":56,"react":"react"}],12:[function(require,module,exports){
+},{"../utils/format":55,"react":"react"}],12:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -601,7 +601,7 @@ DurationBar.propTypes = {
 
 module.exports = DurationBar;
 
-},{"../utils/format":56,"react":"react"}],13:[function(require,module,exports){
+},{"../utils/format":55,"react":"react"}],13:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -773,7 +773,7 @@ FavoritesItem.propTypes = {
 
 module.exports = FavoritesItem;
 
-},{"../utils/format":56,"react":"react"}],15:[function(require,module,exports){
+},{"../utils/format":55,"react":"react"}],15:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -1206,7 +1206,7 @@ TrackProgressBar.propTypes = {
 
 module.exports = TrackProgressBar;
 
-},{"../utils/dom":55,"../utils/playerAPI":58,"react":"react"}],19:[function(require,module,exports){
+},{"../utils/dom":54,"../utils/playerAPI":57,"react":"react"}],19:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -1375,7 +1375,7 @@ Tab.propTypes = {
 
 module.exports = Tab;
 
-},{"../utils/dom":55,"./FavoritesItem":14,"./PlaylistItem":17,"./TracksList":21,"react":"react"}],20:[function(require,module,exports){
+},{"../utils/dom":54,"./FavoritesItem":14,"./PlaylistItem":17,"./TracksList":21,"react":"react"}],20:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -1543,7 +1543,7 @@ TracksList.propTypes = {
 
 module.exports = TracksList;
 
-},{"../utils/localStore":57,"./PlaylistItem":17,"react":"react","react-addons-css-transition-group":"react-addons-css-transition-group"}],22:[function(require,module,exports){
+},{"../utils/localStore":56,"./PlaylistItem":17,"react":"react","react-addons-css-transition-group":"react-addons-css-transition-group"}],22:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -1727,7 +1727,7 @@ NextButton.propTypes = {
 
 module.exports = NextButton;
 
-},{"../../utils/playerAPI":58,"../ControlBarButton":8,"react":"react"}],24:[function(require,module,exports){
+},{"../../utils/playerAPI":57,"../ControlBarButton":8,"react":"react"}],24:[function(require,module,exports){
 'use strict';
 
 var React = require('react'),
@@ -1796,7 +1796,7 @@ PrevButton.propTypes = {
 
 module.exports = PrevButton;
 
-},{"../../utils/playerAPI":58,"../ControlBarButton":8,"react":"react"}],26:[function(require,module,exports){
+},{"../../utils/playerAPI":57,"../ControlBarButton":8,"react":"react"}],26:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -2010,7 +2010,7 @@ VerticalSlider.propTypes = {
 
 module.exports = VerticalSlider;
 
-},{"../../utils/dom":55,"./VerticalSliderItem":28,"react":"react"}],28:[function(require,module,exports){
+},{"../../utils/dom":54,"./VerticalSliderItem":28,"react":"react"}],28:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -2158,7 +2158,7 @@ VerticalSliderItem.propTypes = {
 
 module.exports = VerticalSliderItem;
 
-},{"../../utils/dom":55,"react":"react"}],29:[function(require,module,exports){
+},{"../../utils/dom":54,"react":"react"}],29:[function(require,module,exports){
 'use strict';
 
 var UPDATE_DATA = 'UPDATE_DATA';
@@ -2315,7 +2315,7 @@ function mapStateToProps(state) {
 
 module.exports = connect(mapStateToProps)(ActionBar);
 
-},{"../components/buttons/NextButton":23,"../components/buttons/PlayButton":24,"../components/buttons/PrevButton":25,"../utils/playerAPI":58,"react":"react","react-redux":"react-redux"}],35:[function(require,module,exports){
+},{"../components/buttons/NextButton":23,"../components/buttons/PlayButton":24,"../components/buttons/PrevButton":25,"../utils/playerAPI":57,"react":"react","react-redux":"react-redux"}],35:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -2407,7 +2407,7 @@ function mapStateToProps(state) {
 
 module.exports = connect(mapStateToProps)(App);
 
-},{"../actions/favoritesActions":2,"../utils/localStore":57,"../utils/playerAPI":58,"./../components/Content":6,"./../components/ControlBar":7,"./../components/Header":15,"react":"react","react-redux":"react-redux","soundcloud":"soundcloud"}],36:[function(require,module,exports){
+},{"../actions/favoritesActions":2,"../utils/localStore":56,"../utils/playerAPI":57,"./../components/Content":6,"./../components/ControlBar":7,"./../components/Header":15,"react":"react","react-redux":"react-redux","soundcloud":"soundcloud"}],36:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -2659,7 +2659,7 @@ function mapStateToProps(state) {
 
 module.exports = connect(mapStateToProps)(Playlist);
 
-},{"../actions/dataActions":1,"../actions/favoritesActions":2,"../actions/playerActions":3,"../actions/playlistActions":4,"../actions/uiActions":5,"../components/Playlist":16,"../utils/localStore":57,"../utils/playerAPI":58,"react":"react","react-redux":"react-redux"}],38:[function(require,module,exports){
+},{"../actions/dataActions":1,"../actions/favoritesActions":2,"../actions/playerActions":3,"../actions/playlistActions":4,"../actions/uiActions":5,"../components/Playlist":16,"../utils/localStore":56,"../utils/playerAPI":57,"react":"react","react-redux":"react-redux"}],38:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -2765,7 +2765,7 @@ function mapStateToProps(state) {
 
 module.exports = connect(mapStateToProps)(ProcessingBar);
 
-},{"../actions/favoritesActions":2,"../actions/playlistActions":4,"../components/Equalizer":13,"../components/VolumeBar":22,"../utils/playerAPI":58,"react":"react","react-redux":"react-redux"}],39:[function(require,module,exports){
+},{"../actions/favoritesActions":2,"../actions/playlistActions":4,"../components/Equalizer":13,"../components/VolumeBar":22,"../utils/playerAPI":57,"react":"react","react-redux":"react-redux"}],39:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -2923,7 +2923,7 @@ function mapStateToProps(state) {
 
 module.exports = connect(mapStateToProps)(SearchBar);
 
-},{"../actions/playlistActions":4,"../utils/playerAPI":58,"react":"react","react-redux":"react-redux"}],40:[function(require,module,exports){
+},{"../actions/playlistActions":4,"../utils/playerAPI":57,"react":"react","react-redux":"react-redux"}],40:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -3004,7 +3004,7 @@ function mapStateToProps(state) {
 
 module.exports = connect(mapStateToProps)(TimeBar);
 
-},{"../components/CurrentTimeBar":11,"../components/DurationBar":12,"../components/ProgressBar":18,"../utils/playerAPI":58,"react":"react","react-redux":"react-redux"}],41:[function(require,module,exports){
+},{"../components/CurrentTimeBar":11,"../components/DurationBar":12,"../components/ProgressBar":18,"../utils/playerAPI":57,"react":"react","react-redux":"react-redux"}],41:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -3182,25 +3182,7 @@ var VoiceBar = function (_React$Component) {
 
 module.exports = VoiceBar;
 
-},{"../utils/voiceCommands":60,"annyang":61,"react":"react"}],43:[function(require,module,exports){
-'use strict';
-
-var React = require('react');
-var ReactDOM = require('react-dom');
-
-var _require = require('react-redux');
-
-var Provider = _require.Provider;
-var App = require('./containers/App');
-var store = require('./reducers/store');
-
-ReactDOM.render(React.createElement(
-    Provider,
-    { store: store },
-    React.createElement(App, null)
-), document.getElementById('root'));
-
-},{"./containers/App":35,"./reducers/store":51,"react":"react","react-dom":"react-dom","react-redux":"react-redux"}],44:[function(require,module,exports){
+},{"../utils/voiceCommands":59,"annyang":60,"react":"react"}],43:[function(require,module,exports){
 'use strict';
 
 var initialState = require('./initialState'),
@@ -3220,7 +3202,7 @@ function dataReducer() {
 
 module.exports = dataReducer;
 
-},{"../constants/dataConstants":29,"./initialState":47}],45:[function(require,module,exports){
+},{"../constants/dataConstants":29,"./initialState":46}],44:[function(require,module,exports){
 'use strict';
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -3261,7 +3243,7 @@ module.exports = {
 	}
 };
 
-},{"../utils/format":56}],46:[function(require,module,exports){
+},{"../utils/format":55}],45:[function(require,module,exports){
 'use strict';
 
 var initialState = require('./initialState'),
@@ -3326,7 +3308,7 @@ function favoritesReducer() {
 
 module.exports = favoritesReducer;
 
-},{"../constants/favoritesConstants":30,"../utils/format":56,"./factory":45,"./initialState":47}],47:[function(require,module,exports){
+},{"../constants/favoritesConstants":30,"../utils/format":55,"./factory":44,"./initialState":46}],46:[function(require,module,exports){
 'use strict';
 
 var initialState = {
@@ -3366,7 +3348,7 @@ var initialState = {
 
 module.exports = initialState;
 
-},{}],48:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 'use strict';
 
 var initialState = require('./initialState'),
@@ -3405,7 +3387,7 @@ function playerReducer() {
 
 module.exports = playerReducer;
 
-},{"../constants/playerConstants":31,"./initialState":47}],49:[function(require,module,exports){
+},{"../constants/playerConstants":31,"./initialState":46}],48:[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
@@ -3499,7 +3481,7 @@ function playerReducer() {
 
 module.exports = playerReducer;
 
-},{"../constants/playlistConstants":32,"../utils/format":56,"./factory":45,"./initialState":47}],50:[function(require,module,exports){
+},{"../constants/playlistConstants":32,"../utils/format":55,"./factory":44,"./initialState":46}],49:[function(require,module,exports){
 'use strict';
 
 var playlistReducer = require('./playlistReducer'),
@@ -3530,7 +3512,7 @@ function reducer() {
 
 module.exports = reducer;
 
-},{"./dataReducer":44,"./favoritesReducer":46,"./initialState":47,"./playerReducer":48,"./playlistReducer":49,"./uiReducer":52}],51:[function(require,module,exports){
+},{"./dataReducer":43,"./favoritesReducer":45,"./initialState":46,"./playerReducer":47,"./playlistReducer":48,"./uiReducer":51}],50:[function(require,module,exports){
 'use strict';
 
 var rootReducer = require('./rootReducer');
@@ -3547,7 +3529,7 @@ var store = createStore(rootReducer, middleWare);
 
 module.exports = store;
 
-},{"./rootReducer":50,"redux":"redux","redux-logger":62,"redux-thunk":63}],52:[function(require,module,exports){
+},{"./rootReducer":49,"redux":"redux","redux-logger":61,"redux-thunk":62}],51:[function(require,module,exports){
 'use strict';
 
 var initialState = require('./initialState'),
@@ -3569,7 +3551,7 @@ function uiReducer() {
 
 module.exports = uiReducer;
 
-},{"../constants/uiConstants":33,"./initialState":47}],53:[function(require,module,exports){
+},{"../constants/uiConstants":33,"./initialState":46}],52:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -3653,7 +3635,7 @@ var CanvasSpectrum = function () {
 
 module.exports = CanvasSpectrum;
 
-},{}],54:[function(require,module,exports){
+},{}],53:[function(require,module,exports){
 "use strict";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -3745,7 +3727,7 @@ var Analyzer = function () {
 
 module.exports = Analyzer;
 
-},{}],55:[function(require,module,exports){
+},{}],54:[function(require,module,exports){
 "use strict";
 
 exports.getCoords = function (elem) {
@@ -3769,7 +3751,7 @@ exports.getCoords = function (elem) {
     };
 };
 
-},{}],56:[function(require,module,exports){
+},{}],55:[function(require,module,exports){
 'use strict';
 
 var url = require('url');
@@ -3839,7 +3821,7 @@ exports.normalizeIndices = function (arr) {
     return arr;
 };
 
-},{"url":"url"}],57:[function(require,module,exports){
+},{"url":"url"}],56:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -3917,7 +3899,7 @@ var store = new LocalStore();
 
 module.exports = store;
 
-},{"../actions/playlistActions":4,"../reducers/store":51,"./playerAPI":58}],58:[function(require,module,exports){
+},{"../actions/playlistActions":4,"../reducers/store":50,"./playerAPI":57}],57:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -4182,7 +4164,7 @@ var playerAPI = new PlayerAPI();
 
 module.exports = playerAPI;
 
-},{"../actions/dataActions":1,"../actions/playerActions":3,"../constants/playerConstants":31,"../reducers/store":51,"../utils/trackUtils":59,"./CanvasSpectrum":53,"./WebAudioAnalyzer":54,"soundcloud":"soundcloud"}],59:[function(require,module,exports){
+},{"../actions/dataActions":1,"../actions/playerActions":3,"../constants/playerConstants":31,"../reducers/store":50,"../utils/trackUtils":58,"./CanvasSpectrum":52,"./WebAudioAnalyzer":53,"soundcloud":"soundcloud"}],58:[function(require,module,exports){
 'use strict';
 
 var _require = require('../reducers/store');
@@ -4205,7 +4187,7 @@ exports.getFirstTrack = function () {
     return state[currentPlaylist].tracks[0];
 };
 
-},{"../reducers/store":51}],60:[function(require,module,exports){
+},{"../reducers/store":50}],59:[function(require,module,exports){
 'use strict';
 
 var playerAPI = require('./playerAPI');
@@ -4263,6 +4245,9 @@ var voiceCommands = {
         }
     },
     'shuffle': function shuffle() {
+        var currentTab = getState().ui.currentTab;
+
+
         if (currentTab === 'playlist') {
             dispatch(playlistActions.shuffleTracks());
         } else {
@@ -4273,7 +4258,7 @@ var voiceCommands = {
 
 module.exports = voiceCommands;
 
-},{"../actions/favoritesActions":2,"../actions/playlistActions":4,"../actions/uiActions":5,"../reducers/store":51,"./localStore":57,"./playerAPI":58}],61:[function(require,module,exports){
+},{"../actions/favoritesActions":2,"../actions/playlistActions":4,"../actions/uiActions":5,"../reducers/store":50,"./localStore":56,"./playerAPI":57}],60:[function(require,module,exports){
 //! annyang
 //! version : 2.5.0
 //! author  : Tal Ater @TalAter
@@ -4967,7 +4952,7 @@ module.exports = voiceCommands;
  *
  */
 
-},{}],62:[function(require,module,exports){
+},{}],61:[function(require,module,exports){
 "use strict";
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
@@ -5196,7 +5181,7 @@ function createLogger() {
 }
 
 module.exports = createLogger;
-},{}],63:[function(require,module,exports){
+},{}],62:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -5220,4 +5205,22 @@ var thunk = createThunkMiddleware();
 thunk.withExtraArgument = createThunkMiddleware;
 
 exports['default'] = thunk;
-},{}]},{},[43]);
+},{}],63:[function(require,module,exports){
+'use strict';
+
+var React = require('react');
+var ReactDOM = require('react-dom');
+
+var _require = require('react-redux');
+
+var Provider = _require.Provider;
+var App = require('./containers/App');
+var store = require('./reducers/store');
+
+ReactDOM.render(React.createElement(
+    Provider,
+    { store: store },
+    React.createElement(App, null)
+), document.getElementById('root'));
+
+},{"./containers/App":35,"./reducers/store":50,"react":"react","react-dom":"react-dom","react-redux":"react-redux"}]},{},[63]);
