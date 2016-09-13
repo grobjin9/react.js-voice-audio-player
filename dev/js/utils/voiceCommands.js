@@ -43,6 +43,8 @@ const voiceCommands = {
         }
     },
     'shuffle': function() {
+        let { currentTab } = getState().ui;
+            
         if (currentTab === 'playlist') {
             dispatch(playlistActions.shuffleTracks());
         } else {
