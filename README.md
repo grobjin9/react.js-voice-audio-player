@@ -7,6 +7,13 @@
  
 Check out at https://abitlog.github.io/react.js-voice-audio-player
 
+### Some of advantages:
+1. Player does not require a server, except if you'd like to use a voice control
+2. Uses Soundcloud API to fetch the tracks
+3. Uses local storage API to save the tracks you marked as favorites
+4. Uses web audio API to perform spectrum visualization and filter frequencies
+5. You can switch tracks back and forth, repeat them, shuffle, search for new ones either manually or by your voice
+
 ### The list of the voice commands:
 
 "Switch" - toggles the track's playback <br><br>
