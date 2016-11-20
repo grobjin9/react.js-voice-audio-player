@@ -37,12 +37,12 @@ function playerReducer(state = initialState.playlist, action) {
 			});
 
 		case constants.CONCAT_PARTIAL_TRACKS:
-			let lastIndex = state.tracks[state.tracks.length - 1].index + 1,
-				newTracks = action.tracks.collection
-							.filter(track => track.artwork_url && track.streamable)
-							.map((track, index) => factory.createEntity('track', Object.assign(track, {
-									index : index + lastIndex
-								})));
+			let lastIndex = state.tracks[state.tracks.length - 1].index + 1;
+			let newTracks = action.tracks.collection
+					.filter(track => track.artwork_url && track.streamable)
+					.map((track, index) => factory.createEntity('track', Object.assign(track, {
+						index : index + lastIndex
+					})));
 
 			return Object.assign({}, state, {
 				fetching: false,
