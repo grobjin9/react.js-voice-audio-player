@@ -1,16 +1,16 @@
 const 	gulp = require('gulp'),
-		autoprefixer = require('gulp-autoprefixer'),
-		concat = require('gulp-concat'),
-		babel = require('gulp-babel'),
-		cleanCSS = require('gulp-clean-css'),
-		source = require('vinyl-source-stream'),
-		buffer = require('vinyl-buffer'),
-		uglify = require('gulp-uglify'),
-		rename = require('gulp-rename'),
-		browserify = require('browserify'),
-		browserSync = require('browser-sync').create(),
-		del = require('del'),
-		babelify = require('babelify');
+	autoprefixer = require('gulp-autoprefixer'),
+	concat = require('gulp-concat'),
+	babel = require('gulp-babel'),
+	cleanCSS = require('gulp-clean-css'),
+	source = require('vinyl-source-stream'),
+	buffer = require('vinyl-buffer'),
+	uglify = require('gulp-uglify'),
+	rename = require('gulp-rename'),
+	browserify = require('browserify'),
+        browserSync = require('browser-sync').create(),
+	del = require('del'),
+	babelify = require('babelify');
 
 const VENDORS = [
 	'react',
@@ -59,7 +59,7 @@ gulp.task('js', function() {
 	const props = {
 		entries: ['dev/js/index.js'],
 		cache: {},
-	    packageCache: {},
+	        packageCache: {},
 		transform: [babelify.configure({
 			presets: ["es2015", "react", "stage-2"]
 		})]
