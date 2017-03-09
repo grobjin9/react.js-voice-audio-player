@@ -1,7 +1,6 @@
 # react.js-voice-audio-player
-<p align="right">
-  <img src="/react-player.png" />
-</p>
+
+![alt tag](demo.gif)
 
  A functional and lightweight react-redux audio player built on the top of the Soundcloud API. After the microphone button has been clicked you can use the player remotely. Just by using your voice.
  
