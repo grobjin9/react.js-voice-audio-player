@@ -24,9 +24,9 @@ Check out at https://abitlog.github.io/react.js-voice-audio-player
 **"Shuffle"** - shuffles the list according to the current tab <br><br>
 
 ### To run a local node server:
-1. Clone the repo `git clone https://github.com/abitlog/react.js-voice-audio-player.git && cd react.js-voice-audio-player`
+1. clone the repo `git clone https://github.com/abitlog/react.js-voice-audio-player.git && cd react.js-voice-audio-player`
 2. `npm install`
-3. Gulp v4 has to be installed [locally and globally](https://www.liquidlight.co.uk/blog/article/how-do-i-update-to-gulp-4/)
+3. gulp v4 has to be installed [locally and globally](https://www.liquidlight.co.uk/blog/article/how-do-i-update-to-gulp-4/)
     - `npm rm -g gulp`
     - `npm install -g gulp-cli`
     - `npm install 'gulpjs/gulp.git#4.0' --save-dev`
