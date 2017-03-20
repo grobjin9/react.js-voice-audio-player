@@ -42,8 +42,8 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "scripts": {
-    "start" : "gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=production gulp",
+    "dev": "NODE_ENV=development gulp dev"
   },
   "keywords": [
     "react",

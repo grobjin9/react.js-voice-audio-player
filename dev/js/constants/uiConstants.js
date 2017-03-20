@@ -1,5 +1,5 @@
 const CHANGE_CURRENT_TAB = 'CHANGE_CURRENT_TAB';
 
 module.exports = {
-    CHANGE_CURRENT_TAB
+  CHANGE_CURRENT_TAB
 };

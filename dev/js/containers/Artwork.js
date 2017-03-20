@@ -1,46 +1,46 @@
-const   React = require('react'),
-        { connect } = require('react-redux'),
-        Cover = require('../components/Cover');
+const React = require('react'),
+      {connect} = require('react-redux'),
+      Cover = require('../components/Cover');
 
 class Artwork extends React.Component {
-    
-    constructor(props) {
-        super(props);
 
-        this.state = {
-            loading: false
-        };
+  constructor(props) {
+    super(props);
 
-        this.coverOnLoad = this.coverOnLoad.bind(this);
-    }
+    this.state = {
+      loading: false
+    };
 
-    componentWillReceiveProps(nextProps) {
-        this.setState({
-            loading: this.props.src !== nextProps.src
-        });
-    }
+    this.coverOnLoad = this.coverOnLoad.bind(this);
+  }
 
-    coverOnLoad() {
-        this.setState({
-            loading: false
-        });
-    }
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      loading: this.props.src !== nextProps.src
+    });
+  }
 
-    render() {
-        return (
-            <Cover src={this.props.src} loading={this.state.loading} coverOnLoad={this.coverOnLoad} />
-        );
-    }
+  coverOnLoad() {
+    this.setState({
+      loading: false
+    });
+  }
 
-    static propTypes = {
-        src: React.PropTypes.string.isRequired
-    }
+  render() {
+    return (
+      <Cover src={this.props.src} loading={this.state.loading} coverOnLoad={this.coverOnLoad}/>
+    );
+  }
+
+  static propTypes = {
+    src: React.PropTypes.string.isRequired
+  }
 }
 
 function mapStateToProps(state) {
-    return {
-        src: state.data.cover || 'http://placehold.it/300x300/fff/3cd2ce/?text=REACT.JS+PLAYER'
-    };
+  return {
+    src: state.data.cover || 'http://placehold.it/300x300/fff/3cd2ce/?text=REACT.JS+PLAYER'
+  };
 }
 
 module.exports = connect(mapStateToProps)(Artwork);

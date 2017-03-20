@@ -1,46 +1,46 @@
-const   React = require('react'),
-        annyang = require('annyang'),
-        commands = require('../utils/voiceCommands');
+const React = require('react'),
+      annyang = require('annyang'),
+      commands = require('../utils/voiceCommands');
 
 class VoiceBar extends React.Component {
-    constructor(props) {
-        super(props);
+  constructor(props) {
+    super(props);
 
-        this.state = {
-            isActive: false
-        };
+    this.state = {
+      isActive: false
+    };
 
-        if (annyang) {
-            annyang.addCommands(commands);
-        }
-        
-        this.voiceBarOnClick = this.voiceBarOnClick.bind(this);
+    if (annyang) {
+      annyang.addCommands(commands);
     }
 
-    componentWillUpdate(nextProps, nextState) {
-        if (nextState.isActive) {
-            annyang.start();
-        } else {
-            annyang.abort();
-        }
-    }
+    this.voiceBarOnClick = this.voiceBarOnClick.bind(this);
+  }
 
-    voiceBarOnClick() {
-        this.setState({
-            isActive: !this.state.isActive
-        });
+  componentWillUpdate(nextProps, nextState) {
+    if (nextState.isActive) {
+      annyang.start();
+    } else {
+      annyang.abort();
     }
-    
-    render() {
-        return (
-            <div className="voice-bar">
-                <div
-                    className={"icon voice-bar__controller " + (this.state.isActive ? 'activated' : '')}
-                    onClick={this.voiceBarOnClick}>
-                </div>
-            </div>
-        )
-    }
+  }
+
+  voiceBarOnClick() {
+    this.setState({
+      isActive: !this.state.isActive
+    });
+  }
+
+  render() {
+    return (
+      <div className="voice-bar">
+        <div
+          className={"icon voice-bar__controller " + (this.state.isActive ? 'activated' : '')}
+          onClick={this.voiceBarOnClick}>
+        </div>
+      </div>
+    )
+  }
 }
 
 module.exports = VoiceBar;
