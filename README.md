@@ -18,7 +18,7 @@ Check out at https://abitlog.github.io/react.js-voice-audio-player
 **"Play next track"** - plays the next track according to the current playing tab <br><br>
 **"Play previous track"** - plays the previous track according to the current playing tab <br><br>
 **"Repeat track"** - toggles the repeat switcher <br><br>
-**"Search for *"** - search the track/author/whatever. So, a voice command "Search for Vivaldi" will search for some Vivaldi's music <br><br>
+**"Search for"** - search the track/author/whatever. So, a voice command "Search for Vivaldi" will search for some Vivaldi's music <br><br>
 **"Play playlist"** - starts playing the first track from the playlist <br><br>
 **"Play favorites"** - starts playing the first track from the favorites <br><br>
 **"Shuffle"** - shuffles the list according to the current tab <br><br>
